@@ -7,14 +7,8 @@ sectionPagesMenu: main
 params:
   profileMode:
     enabled: true
-    title: null # optional default will be site title
-    subtitle: "Hi, I am Shreemaan Abhishek"
-    tagline: "A geeky ambivert and a workaholic person who thinks sarcasm is seriously important."
-    buttons:
-      - name: Archive
-        url: "/archive"
-      - name: Github
-        url: "https://github.com/shreemaan-abhishek"
+    subtitle: Hi, I am Shreemaan Abhishek
+    tagline: Software Engineer | OSS Maintainer
 
   socialIcons: # optional
     - name: GitHub
