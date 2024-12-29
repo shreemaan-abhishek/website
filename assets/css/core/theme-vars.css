@@ -1,5 +1,5 @@
 :root {
-    --gap: 24px;
+    --gap: 36px;
     --content-gap: 20px;
     --nav-width: 720px;
     --main-width: 720px;
@@ -7,14 +7,16 @@
     --footer-height: 60px;
     --radius: 8px;
     --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
+    --entry: rgb(180, 180, 180);
     --primary: rgb(30, 30, 30);
     --secondary: rgb(108, 108, 108);
     --tertiary: rgb(214, 214, 214);
     --content: rgb(31, 31, 31);
     --code-block-bg: rgb(28, 29, 33);
     --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
+    --border: rgb(170, 170, 170);
+    --main-body-bg: rgb(200, 200, 200);
+    --main-body-bg-dark: rgb(30, 30, 30);
 }
 
 .dark {
@@ -30,9 +32,9 @@
 }
 
 .list {
-    background: var(--code-bg);
+    background-color: var(--code-bg);
 }
 
 .dark.list {
-    background: var(--theme);
+    background-color: var(--theme);
 }
