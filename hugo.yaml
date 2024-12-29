@@ -1,0 +1,25 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: "Shreemaan Abhishek"
+theme: ["PaperMod"]
+sectionPagesMenu: main
+
+params:
+  profileMode:
+    enabled: true
+    title: null # optional default will be site title
+    subtitle: "Hi, I am Shreemaan Abhishek"
+    tagline: "A geeky ambivert and a workaholic person who thinks sarcasm is seriously important."
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Github
+        url: "https://github.com/shreemaan-abhishek"
+
+  socialIcons: # optional
+    - name: GitHub
+      url: "https://github.com/shreemaan-abhishek"
+    - name: X
+      url: "https://x.com/shreemaan_abhi"
+    - name: LinkedIn
+      url: "https://linkedin.com/in/shreemaan-abhishek"
