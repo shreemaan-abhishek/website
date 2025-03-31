@@ -6,8 +6,8 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(180, 180, 180);
+    --theme: #cfcfcf;
+    --entry: #F3F4F6;
     --primary: rgb(30, 30, 30);
     --secondary: rgb(108, 108, 108);
     --tertiary: rgb(214, 214, 214);
@@ -15,24 +15,29 @@
     --code-block-bg: rgb(28, 29, 33);
     --code-bg: rgb(245, 245, 245);
     --border: rgb(170, 170, 170);
-    --main-body-bg: rgb(200, 200, 200);
-    --main-body-bg-dark: rgb(30, 30, 30);
+    --main-body-bg: #FFFFFF;
+    --nav-color: rgb(250, 250, 250);
+    --bg-img: url(/images/fabricd.png)
 }
 
 .dark {
-    --theme: rgb(29, 30, 32);
-    --entry: rgb(46, 46, 51);
-    --primary: rgb(218, 218, 219);
-    --secondary: rgb(155, 156, 157);
+    --theme: #0D1117; /*bg*/
+    /* for list item bg */
+    --entry: #161B22;
+    --primary: #C9D1D9 ;
+    --secondary: #d4d4d4;
     --tertiary: rgb(65, 66, 68);
-    --content: rgb(196, 196, 197);
+    --content: rgb(213, 213, 213);
     --code-block-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);
+    --main-body-bg: #0D1117;
+    --nav-color: #0D1117;
+    --bg-img: url(/images/fabricl.png)
 }
 
 .list {
-    background-color: var(--code-bg);
+    background-color: var(--theme);
 }
 
 .dark.list {

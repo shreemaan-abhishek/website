@@ -5,10 +5,16 @@ theme: ["PaperMod"]
 sectionPagesMenu: main
 
 params:
-  profileMode:
-    enabled: true
-    subtitle: Hi, I am Shreemaan Abhishek
-    tagline: Software Engineer | OSS Maintainer
+  homeInfoParams:
+    Title: 👋🏼
+    Content: |
+      i am shreemaan abhishek, software engineer @invideo.io and maintainer of apache apisix.
+      
+      Welcome to my blog. Here, you can learn more about me or just read my write ups.
+  # profileMode:
+  #   enabled: true
+  #   subtitle: Hi, I am Shreemaan Abhishek
+  #   tagline: Software Engineer | OSS Maintainer
 
   socialIcons: # optional
     - name: GitHub
