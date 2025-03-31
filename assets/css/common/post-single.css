@@ -213,6 +213,10 @@
     margin: 20px 0;
     padding: 0 14px;
     border-inline-start: 3px solid var(--primary);
+    background: var(--entry);
+}
+.post-content blockquote p {
+    margin: 0;
 }
 
 .post-content hr {
