@@ -1,6 +1,6 @@
 ---
 date: '2025-04-13T12:40:03+05:30'
-draft: true
+draft: false
 title: 'Forward Proxy in NGINX; A VPN Is Not What You Need'
 cover:
     image: "/images/nginx-proxy/nginx-proxy.gif"
