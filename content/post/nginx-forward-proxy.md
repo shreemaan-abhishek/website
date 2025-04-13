@@ -55,11 +55,11 @@ make && make install
 
 Following the above steps will install the customized version of NGINX in `/usr/local/nginx/sbin`, you can cross-verify the installation path as it will be shown as output of `make && make install` in the steps mentioned above.
 
-![output of make && make install](/images/nginx-proxy/nginx-install.png)
+![output of make && make install](/images/nginx-proxy/nginx-install.webp)
 
 You can verify if the custom nginx build was successful by running `nginx -V`. The output will should contain `--add-module`:
 
-![custom nginx installation verification](/images/nginx-proxy/nginx-installation.png)
+![custom nginx installation verification](/images/nginx-proxy/nginx-installation.webp)
 
 Now use the following `nginx.conf` to start NGINX:
 
@@ -97,7 +97,7 @@ This can be done by configuring the proxy settings of your current WiFi. On my m
 - Navigate to "Proxies" section on the left hand side
 - Configure the IP address and port
   
-![proxy settings on mac](/images/nginx-proxy/nginx-mac-proxy.png)
+![proxy settings on mac](/images/nginx-proxy/nginx-mac-proxy.webp)
 
 ## Conclusion
 
